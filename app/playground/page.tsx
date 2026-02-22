@@ -8,6 +8,16 @@ export const metadata: Metadata = {
   title: "Playground",
   description:
     "See exactly how structured prompts transform naive requests into high-quality code generation.",
+  openGraph: {
+    title: "Playground | ClaudeCraft",
+    description:
+      "See exactly how structured prompts transform naive requests into high-quality code generation.",
+  },
+  twitter: {
+    title: "Playground | ClaudeCraft",
+    description:
+      "See exactly how structured prompts transform naive requests into high-quality code generation.",
+  },
 };
 
 export default function PlaygroundPage() {

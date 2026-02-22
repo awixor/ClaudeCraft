@@ -21,6 +21,16 @@ export async function generateMetadata({
   return {
     title: practice.title,
     description: practice.description,
+    openGraph: {
+      title: `${practice.title} | ClaudeCraft`,
+      description: practice.description,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${practice.title} | ClaudeCraft`,
+      description: practice.description,
+    },
   };
 }
 

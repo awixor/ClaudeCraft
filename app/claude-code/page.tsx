@@ -7,6 +7,16 @@ export const metadata: Metadata = {
   title: "Claude Code in Action",
   description:
     "Best practices, commands, shortcuts, and custom instructions for Claude Code.",
+  openGraph: {
+    title: "Claude Code in Action | ClaudeCraft",
+    description:
+      "Best practices, commands, shortcuts, and custom instructions for Claude Code.",
+  },
+  twitter: {
+    title: "Claude Code in Action | ClaudeCraft",
+    description:
+      "Best practices, commands, shortcuts, and custom instructions for Claude Code.",
+  },
 };
 
 export default function ClaudeCodePage() {

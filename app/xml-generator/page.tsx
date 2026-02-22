@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "XML Tag Generator",
   description:
     "Generate structured, professional prompts for Claude using XML tags.",
+  openGraph: {
+    title: "XML Tag Generator | ClaudeCraft",
+    description:
+      "Generate structured, professional prompts for Claude using XML tags.",
+  },
+  twitter: {
+    title: "XML Tag Generator | ClaudeCraft",
+    description:
+      "Generate structured, professional prompts for Claude using XML tags.",
+  },
 };
 
 export default function XmlGeneratorPage() {
@@ -35,10 +45,10 @@ export default function XmlGeneratorPage() {
       {/* Explanation Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl pt-8 border-t border-border">
         <div>
-          <h3 className="font-semibold text-foreground flex items-center gap-2 mb-3">
+          <h2 className="text-xl font-semibold text-foreground flex items-center gap-2 mb-3">
             <Code2 className="h-5 w-5 text-violet-500" />
             Why use XML tags?
-          </h3>
+          </h2>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>
               • Prevents Claude from confusing instructions with injected
@@ -55,10 +65,10 @@ export default function XmlGeneratorPage() {
           </ul>
         </div>
         <div>
-          <h3 className="font-semibold text-foreground flex items-center gap-2 mb-3">
+          <h2 className="text-xl font-semibold text-foreground flex items-center gap-2 mb-3">
             <Braces className="h-5 w-5 text-emerald-500" />
             Common Tags
-          </h3>
+          </h2>
           <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
             <span className="px-2 py-1 bg-muted rounded font-mono text-xs">
               &lt;context&gt;
