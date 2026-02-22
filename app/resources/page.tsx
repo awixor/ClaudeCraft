@@ -12,6 +12,16 @@ export const metadata: Metadata = {
   title: "Resources",
   description:
     "Curated links to Anthropic documentation, UI tools, and community learning resources.",
+  openGraph: {
+    title: "Resources | ClaudeCraft",
+    description:
+      "Curated links to Anthropic documentation, UI tools, and community learning resources.",
+  },
+  twitter: {
+    title: "Resources | ClaudeCraft",
+    description:
+      "Curated links to Anthropic documentation, UI tools, and community learning resources.",
+  },
 };
 
 const categoryIcons = {

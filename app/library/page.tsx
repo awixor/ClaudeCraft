@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Library",
   description:
     "Browse every Claude best practice, filtered by category and difficulty.",
+  openGraph: {
+    title: "Library | ClaudeCraft",
+    description:
+      "Browse every Claude best practice, filtered by category and difficulty.",
+  },
+  twitter: {
+    title: "Library | ClaudeCraft",
+    description:
+      "Browse every Claude best practice, filtered by category and difficulty.",
+  },
 };
 
 export default function LibraryPage() {
