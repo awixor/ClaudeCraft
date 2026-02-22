@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/library", label: "Library" },
   { href: "/playground", label: "Playground" },
   { href: "/xml-generator", label: "XML Generator" },
+  { href: "/claude-code", label: "Claude Code" },
   { href: "/resources", label: "Resources" },
 ];
 

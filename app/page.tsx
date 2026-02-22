@@ -4,7 +4,7 @@ import {
   BookOpen,
   Code2,
   FlaskConical,
-  Layers,
+  Terminal,
   Wand2,
 } from "lucide-react";
 import { PracticeCard } from "@/components/PracticeCard";
@@ -18,6 +18,15 @@ export const metadata: Metadata = {
 };
 
 const features = [
+  {
+    icon: Terminal,
+    title: "Claude Code in Action",
+    description:
+      "Master the official CLI tool with essential slash commands, shortcuts, and custom instructions.",
+    href: "/claude-code",
+    color: "text-amber-500",
+    bg: "bg-amber-100 dark:bg-amber-900/30",
+  },
   {
     icon: BookOpen,
     title: "Best Practice Catalog",
@@ -44,15 +53,6 @@ const features = [
     href: "/xml-generator",
     color: "text-emerald-500",
     bg: "bg-emerald-100 dark:bg-emerald-900/30",
-  },
-  {
-    icon: Layers,
-    title: "Resources",
-    description:
-      "Official Anthropic docs, guides, and community tools in one place.",
-    href: "/resources",
-    color: "text-orange-500",
-    bg: "bg-orange-100 dark:bg-orange-900/30",
   },
 ];
 
@@ -112,7 +112,7 @@ export default function HomePage() {
 
       {/* Feature grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
           {features.map((feature) => (
             <Link
               key={feature.href}
