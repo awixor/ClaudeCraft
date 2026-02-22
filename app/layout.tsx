@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://claude-craft-kappa.vercel.app/"),
   title: {
     default: "ClaudeCraft — Claude Best Practices Gallery",
     template: "%s | ClaudeCraft",
@@ -22,7 +23,29 @@ export const metadata: Metadata = {
     "prompt engineering",
     "AI",
     "best practices",
+    "developer tools",
   ],
+  authors: [{ name: "ClaudeCraft Contributor" }],
+  creator: "ClaudeCraft",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://claude-craft-kappa.vercel.app/",
+    title: "ClaudeCraft — Claude Best Practices Gallery",
+    description:
+      "A curated, interactive gallery of best practices for prompting and collaborating with Claude for software engineering.",
+    siteName: "ClaudeCraft",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ClaudeCraft — Claude Best Practices Gallery",
+    description:
+      "A curated, interactive gallery of best practices for prompting and collaborating with Claude for software engineering.",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
